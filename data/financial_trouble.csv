@@ -1,0 +1,52 @@
+Date,Description,Amount,Type
+2024-10-01,Salary Deposit,4000.00,credit
+2024-10-02,Rent Payment,1800.00,debit
+2024-10-03,Credit Card Payment,450.00,debit
+2024-10-04,Starbucks Coffee,8.50,debit
+2024-10-05,Uber Eats Dinner,35.60,debit
+2024-10-06,Amazon Prime,14.99,debit
+2024-10-07,Netflix,15.99,debit
+2024-10-08,Hulu,12.99,debit
+2024-10-09,Disney Plus,10.99,debit
+2024-10-10,HBO Max,15.99,debit
+2024-10-11,Spotify,10.99,debit
+2024-10-12,YouTube Premium,11.99,debit
+2024-10-13,Grubhub Order,42.80,debit
+2024-10-14,Starbucks Coffee,9.25,debit
+2024-10-15,Doordash Lunch,28.50,debit
+2024-10-16,Electric Bill,185.00,debit
+2024-10-17,Water Bill,65.00,debit
+2024-10-18,Internet Bill,99.99,debit
+2024-10-19,Car Insurance,220.00,debit
+2024-10-20,Uber Ride,25.00,debit
+2024-10-21,Lyft Ride,18.50,debit
+2024-10-22,Zara Shopping,185.00,debit
+2024-10-23,Sephora Beauty,125.00,debit
+2024-10-24,Bar Tab,78.00,debit
+2024-10-25,Concert Tickets,150.00,debit
+2024-10-26,Postmates Dinner,41.20,debit
+2024-10-27,Starbucks Coffee,7.75,debit
+2024-10-28,Gas Station,60.00,debit
+2024-10-29,Target Shopping,95.50,debit
+2024-10-30,Gym Membership,89.00,debit
+2024-10-31,Phone Bill,85.00,debit
+2024-11-01,Salary Deposit,4000.00,credit
+2024-11-02,Rent Payment,1800.00,debit
+2024-11-03,Urgent Care Visit,150.00,debit
+2024-11-04,Pharmacy,85.50,debit
+2024-11-05,Uber Eats,32.40,debit
+2024-11-06,Amazon Prime,14.99,debit
+2024-11-07,Netflix,15.99,debit
+2024-11-08,Hulu,12.99,debit
+2024-11-09,Disney Plus,10.99,debit
+2024-11-10,HBO Max,15.99,debit
+2024-11-11,Spotify,10.99,debit
+2024-11-12,YouTube Premium,11.99,debit
+2024-11-13,Doordash Lunch,38.50,debit
+2024-11-14,Starbucks Coffee,8.00,debit
+2024-11-15,Car Repair Emergency,650.00,debit
+2024-11-16,Grubhub Dinner,45.80,debit
+2024-11-17,Late Fee Credit Card,35.00,debit
+2024-11-18,Overdraft Fee,30.00,debit
+2024-11-19,H&M Clothing,110.00,debit
+2024-11-20,Movies AMC,42.00,debit

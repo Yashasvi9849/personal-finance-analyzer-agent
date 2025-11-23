@@ -1,0 +1,419 @@
+{
+  "summary": "FINANCIAL ANALYSIS SUMMARY\n\nTotal Spending: $22620.41\nTotal Income: $29550.00\nNet Cash Flow: $6929.59\nAverage Monthly Spending: $8482.65\n\nTop Spending Category: Other ($11387.09, 50.3%)\nPatterns Detected: 13\nKey Insight: High Other Spending",
+  "metrics": {
+    "totalSpending": 22620.410000000007,
+    "totalIncome": 29550,
+    "netCashFlow": 6929.589999999993,
+    "averageDaily": 282.7551250000001,
+    "averageMonthly": 8482.653750000003,
+    "categoryBreakdown": [
+      {
+        "category": "Other",
+        "total": 11387.089999999998,
+        "percentage": 50.339892159337495,
+        "transactionCount": 56
+      },
+      {
+        "category": "Housing",
+        "total": 9600,
+        "percentage": 42.43954906210806,
+        "transactionCount": 3
+      },
+      {
+        "category": "Entertainment",
+        "total": 687.99,
+        "percentage": 3.0414568082541376,
+        "transactionCount": 5
+      },
+      {
+        "category": "Bills & Utilities",
+        "total": 456.98,
+        "percentage": 2.0202109510835564,
+        "transactionCount": 4
+      },
+      {
+        "category": "Food & Dining",
+        "total": 442.55,
+        "percentage": 1.956419003899575,
+        "transactionCount": 3
+      },
+      {
+        "category": "Transportation",
+        "total": 45.8,
+        "percentage": 0.2024720153171405,
+        "transactionCount": 1
+      }
+    ]
+  },
+  "patterns": [
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: monthly salary ($8500.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-01T00:00:00.000Z",
+          "description": "Monthly Salary",
+          "amount": 8500,
+          "isIncome": true,
+          "category": "Income",
+          "confidence": 0.9
+        },
+        {
+          "date": "2024-10-01T00:00:00.000Z",
+          "description": "Monthly Salary",
+          "amount": 8500,
+          "isIncome": true,
+          "category": "Income",
+          "confidence": 0.9
+        },
+        {
+          "date": "2024-11-01T00:00:00.000Z",
+          "description": "Monthly Salary",
+          "amount": 8500,
+          "isIncome": true,
+          "category": "Income",
+          "confidence": 0.9
+        }
+      ],
+      "severity": "medium",
+      "impact": 102000
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: rent payment ($3200.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-20T00:00:00.000Z",
+          "description": "Rent Payment",
+          "amount": 3200,
+          "isIncome": false,
+          "category": "Housing",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-10-20T00:00:00.000Z",
+          "description": "Rent Payment",
+          "amount": 3200,
+          "isIncome": false,
+          "category": "Housing",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-11-20T00:00:00.000Z",
+          "description": "Rent Payment",
+          "amount": 3200,
+          "isIncome": false,
+          "category": "Housing",
+          "confidence": 0.8
+        }
+      ],
+      "severity": "medium",
+      "impact": 38400
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: wework coworking space ($450.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-02T00:00:00.000Z",
+          "description": "WeWork Coworking Space",
+          "amount": 450,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-02T00:00:00.000Z",
+          "description": "WeWork Coworking Space",
+          "amount": 450,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-11-02T00:00:00.000Z",
+          "description": "WeWork Coworking Space",
+          "amount": 450,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "medium",
+      "impact": 5400
+    },
+    {
+      "type": "anomaly",
+      "description": "Unusual large transaction: Apple MacBook Pro ($2899.00)",
+      "transactions": [
+        {
+          "date": "2024-09-23T00:00:00.000Z",
+          "description": "Apple MacBook Pro",
+          "amount": 2899,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "high",
+      "impact": 2899
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: equinox gym ($215.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-12T00:00:00.000Z",
+          "description": "Equinox Gym",
+          "amount": 215,
+          "isIncome": false,
+          "category": "Entertainment",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-10-11T00:00:00.000Z",
+          "description": "Equinox Gym",
+          "amount": 215,
+          "isIncome": false,
+          "category": "Entertainment",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-11-11T00:00:00.000Z",
+          "description": "Equinox Gym",
+          "amount": 215,
+          "isIncome": false,
+          "category": "Entertainment",
+          "confidence": 0.8
+        }
+      ],
+      "severity": "medium",
+      "impact": 2580
+    },
+    {
+      "type": "trend",
+      "description": "Spending decreasing by 25.1% over time",
+      "transactions": [],
+      "severity": "medium",
+      "impact": 2136.08
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: pge electric bill ($138.50/month)",
+      "transactions": [
+        {
+          "date": "2024-09-26T00:00:00.000Z",
+          "description": "PG&E Electric Bill",
+          "amount": 145,
+          "isIncome": false,
+          "category": "Bills & Utilities",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-10-25T00:00:00.000Z",
+          "description": "PG&E Electric Bill",
+          "amount": 132,
+          "isIncome": false,
+          "category": "Bills & Utilities",
+          "confidence": 0.8
+        }
+      ],
+      "severity": "medium",
+      "impact": 1662
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: comcast internet ($89.99/month)",
+      "transactions": [
+        {
+          "date": "2024-09-27T00:00:00.000Z",
+          "description": "Comcast Internet",
+          "amount": 89.99,
+          "isIncome": false,
+          "category": "Bills & Utilities",
+          "confidence": 0.8
+        },
+        {
+          "date": "2024-10-26T00:00:00.000Z",
+          "description": "Comcast Internet",
+          "amount": 89.99,
+          "isIncome": false,
+          "category": "Bills & Utilities",
+          "confidence": 0.8
+        }
+      ],
+      "severity": "medium",
+      "impact": 1079.8799999999999
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: adobe creative cloud ($54.99/month)",
+      "transactions": [
+        {
+          "date": "2024-09-09T00:00:00.000Z",
+          "description": "Adobe Creative Cloud",
+          "amount": 54.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-09T00:00:00.000Z",
+          "description": "Adobe Creative Cloud",
+          "amount": 54.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-11-09T00:00:00.000Z",
+          "description": "Adobe Creative Cloud",
+          "amount": 54.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "medium",
+      "impact": 659.88
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: linkedin premium ($39.99/month)",
+      "transactions": [
+        {
+          "date": "2024-09-07T00:00:00.000Z",
+          "description": "LinkedIn Premium",
+          "amount": 39.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-07T00:00:00.000Z",
+          "description": "LinkedIn Premium",
+          "amount": 39.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-11-07T00:00:00.000Z",
+          "description": "LinkedIn Premium",
+          "amount": 39.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "low",
+      "impact": 479.88
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: notion subscription ($10.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-18T00:00:00.000Z",
+          "description": "Notion Subscription",
+          "amount": 10,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-16T00:00:00.000Z",
+          "description": "Notion Subscription",
+          "amount": 10,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "low",
+      "impact": 120
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: github pro ($7.00/month)",
+      "transactions": [
+        {
+          "date": "2024-09-08T00:00:00.000Z",
+          "description": "GitHub Pro",
+          "amount": 7,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-08T00:00:00.000Z",
+          "description": "GitHub Pro",
+          "amount": 7,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-11-08T00:00:00.000Z",
+          "description": "GitHub Pro",
+          "amount": 7,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "low",
+      "impact": 84
+    },
+    {
+      "type": "recurring_charge",
+      "description": "Recurring monthly charge: apple icloud storage ($2.99/month)",
+      "transactions": [
+        {
+          "date": "2024-09-05T00:00:00.000Z",
+          "description": "Apple iCloud Storage",
+          "amount": 2.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-10-05T00:00:00.000Z",
+          "description": "Apple iCloud Storage",
+          "amount": 2.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        },
+        {
+          "date": "2024-11-05T00:00:00.000Z",
+          "description": "Apple iCloud Storage",
+          "amount": 2.99,
+          "isIncome": false,
+          "category": "Other",
+          "confidence": 0.5
+        }
+      ],
+      "severity": "low",
+      "impact": 35.88
+    }
+  ],
+  "insights": [
+    {
+      "title": "High Other Spending",
+      "description": "Other represents 50.3% of your spending. Consider if this aligns with your priorities.",
+      "category": "info",
+      "priority": 7,
+      "actionable": true
+    },
+    {
+      "title": "Review Subscriptions",
+      "description": "You have 11 recurring charges totaling $12708.46/month. Review for unused subscriptions.",
+      "category": "opportunity",
+      "priority": 8,
+      "potentialSavings": 12708.460000000001,
+      "actionable": true
+    }
+  ],
+  "generatedAt": "2025-11-23T22:46:08.031Z"
+}

@@ -1,0 +1,10 @@
+{
+  "tasks": {
+    "start": "deno run --allow-env --allow-read --allow-write --allow-net main.ts",
+    "dev": "deno run --allow-env --allow-read --allow-write --allow-net --watch main.ts"
+  },
+  "imports": {
+    "@corespeed/zypher": "jsr:@corespeed/zypher@^0.1.0",
+    "@std/dotenv": "jsr:@std/dotenv@^0.225.5"
+  }
+}
