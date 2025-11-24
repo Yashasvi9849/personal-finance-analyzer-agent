@@ -1,4 +1,5 @@
-## A financial analysis agent that makes intelligent decisions about what to 
+## Personal Finance Analyzer Agent
+A financial analysis agent that makes intelligent decisions about what to 
 analyze rather than following a fixed script. The agent autonomously creates 
 analysis plans based on dataset size, discovers patterns like recurring charges 
 and spending spikes, and generates prioritized recommendations with potential 
@@ -44,3 +45,4 @@ Date,Description,Amount,Type
 
 ### Output
 Results are displayed in console and saved to `output/financial_report.json`
+
